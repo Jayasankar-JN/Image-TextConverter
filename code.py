@@ -103,6 +103,16 @@ directory1 = './Lines/Line_'
 directory2 = './Words/Word_'
 directory3 = './Letters/Letter_'
 
+#Making directory if not exits
+
+if not os.path.exists("./Lines"):
+    os.makedirs("./Lines")
+
+if not os.path.exists("./Words"):
+    os.makedirs("./Words")
+
+if not os.path.exists("./Letters"):
+    os.makedirs("./Letters")
 
 
 for i in range(len(lines)):
