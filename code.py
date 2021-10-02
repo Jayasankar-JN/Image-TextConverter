@@ -80,7 +80,7 @@ directory1 = './Lines/Line_'
 directory2 = './Words/Word_'
 
 
-
+#creating .png files for each line and words 
 
 for i in range(len(lines)):
     cv2.imwrite(directory1 + str(i) + ".png",lines[i])
